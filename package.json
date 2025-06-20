@@ -1,5 +1,6 @@
 {
   "name": "vite-react-typescript-starter",
+  "homepage": "https://github.com/dxelnetwork/HumairaPrint",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "prediploy": "npm run build"
+    "diploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
