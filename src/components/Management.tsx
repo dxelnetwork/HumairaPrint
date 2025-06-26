@@ -69,7 +69,6 @@ const Management = () => {
                 </button>
                 <button className="p-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300">
                   <Phone className="h-5 w-5 text-white"/>
-                  <a href="tel:+4733378901"></a>
                 </button>
               </div>
             </div>
