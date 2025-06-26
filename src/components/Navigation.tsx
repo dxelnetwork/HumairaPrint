@@ -50,10 +50,10 @@ const Navigation = () => {
             </div>
             <div>
               <span className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>
-                Humaira Printing
+                Humaira
               </span>
               <div className={`text-sm ${scrolled ? 'text-gray-600' : 'text-gray-200'}`}>
-                & Packaging Solutions
+               Printing & Packaging
               </div>
             </div>
           </div>
