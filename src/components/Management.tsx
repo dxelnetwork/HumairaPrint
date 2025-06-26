@@ -79,6 +79,7 @@ const Management = () => {
                 >
                   <Linkedin className="h-5 w-5" />
                   <span>linkedin.com/in/myselfhasan</span>
+                  <a href="https://linkedin.com"></a>
                 </button>
                 <button 
                   onClick={handleEmailClick}
