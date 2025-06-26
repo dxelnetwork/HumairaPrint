@@ -78,8 +78,7 @@ const Management = () => {
                   className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300 text-white"
                 >
                   <Linkedin className="h-5 w-5" />
-                  <span>linkedin.com/in/myselfhasan</span>
-                  <a href="https://linkedin.com"></a>
+                  <span href="linkedin.com/in/myselfhasan">linkedin</span>
                 </button>
                 <button 
                   onClick={handleEmailClick}
