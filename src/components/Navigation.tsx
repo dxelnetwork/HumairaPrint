@@ -52,7 +52,7 @@ const Navigation = () => {
               <span className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>
                 Humaira
               </span>
-              <div className={`text-sm ${scrolled ? 'text-gray-400' : 'text-gray-200'}`}>
+              <div className={`text-sm ${scrolled ? 'text-gray-600' : 'text-gray-100'}`}>
                Printing & Packaging
               </div>
             </div>
