@@ -46,7 +46,6 @@ const Navigation = () => {
             onClick={() => scrollToSection('home')}
           >
             <div className="p-2 bg-blue-600 rounded-lg mr-3">
-              <img src="https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/Logo-one.png" alt="Girl in a jacket" width="500" height="600">
               <Printer className="h-6 w-6 text-white" />
             </div>
             <div>
