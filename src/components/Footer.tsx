@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Printer, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 interface FooterProps {
   onPolicyClick: (policy: string) => void;
@@ -13,8 +13,12 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="p-2 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg mr-3">
-                <Printer className="h-6 w-6 text-white" />
+              <div className="mr-3">
+                <img 
+                  src="https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/Logo-one.png" 
+                  alt="Humaira Printing & Packaging"
+                  className="h-8 w-auto"
+                />
               </div>
               <h3 className="text-2xl font-bold">Humaira Printing & Packaging</h3>
             </div>

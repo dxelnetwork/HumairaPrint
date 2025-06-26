@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Printer } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,8 +45,12 @@ const Navigation = () => {
             className="flex items-center cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            <div className="p-2 bg-blue-600 rounded-lg mr-3">
-              <Printer className="h-6 w-6 text-white" />
+            <div className="mr-3">
+              <img 
+                src="https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/Logo-one.png" 
+                alt="Humaira Printing & Packaging"
+                className="h-10 w-auto"
+              />
             </div>
             <div>
               <span className={`text-xl font-bold ${scrolled ? 'text-gray-900' : 'text-white'}`}>
