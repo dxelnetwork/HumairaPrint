@@ -10,6 +10,18 @@ const Management = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handlePhoneClick = () => {
+    window.open('tel:+8801303000250', '_self');
+  };
+
+  const handleEmailClick = () => {
+    window.open('mailto:hello@dxel.net', '_self');
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://linkedin.com/myselfhasan', '_blank');
+  };
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,15 +71,43 @@ const Management = () => {
                 </div>
               </div>
               
+              {/* Contact Information */}
+              <div className="pt-4 space-y-3">
+                <div className="flex items-center justify-center lg:justify-start space-x-3">
+                  <Phone className="h-5 w-5 text-blue-600" />
+                  <span className="text-gray-700">+8801303000250</span>
+                </div>
+                <div className="flex items-center justify-center lg:justify-start space-x-3">
+                  <Mail className="h-5 w-5 text-blue-600" />
+                  <span className="text-gray-700">hello@dxel.net</span>
+                </div>
+                <div className="flex items-center justify-center lg:justify-start space-x-3">
+                  <Linkedin className="h-5 w-5 text-blue-600" />
+                  <span className="text-gray-700">linkedin.com/myselfhasan</span>
+                </div>
+              </div>
+              
               {/* Social buttons */}
               <div className="flex justify-center lg:justify-start space-x-4 pt-6">
-                <button className="p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300">
+                <button 
+                  onClick={handleLinkedInClick}
+                  className="p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300"
+                  title="Connect on LinkedIn"
+                >
                   <Linkedin className="h-5 w-5 text-white" />
                 </button>
-                <button className="p-3 bg-gray-600 hover:bg-gray-700 rounded-lg transition-colors duration-300">
+                <button 
+                  onClick={handleEmailClick}
+                  className="p-3 bg-gray-600 hover:bg-gray-700 rounded-lg transition-colors duration-300"
+                  title="Send Email"
+                >
                   <Mail className="h-5 w-5 text-white" />
                 </button>
-                <button className="p-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300">
+                <button 
+                  onClick={handlePhoneClick}
+                  className="p-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300"
+                  title="Call Now"
+                >
                   <Phone className="h-5 w-5 text-white"/>
                 </button>
               </div>
