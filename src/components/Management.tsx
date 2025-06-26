@@ -28,7 +28,7 @@ const Management = () => {
             <div className="relative inline-block mb-8">
               <div className="w-64 h-64 mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=500" 
+                  src="https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/ceo.jpg?auto=compress&cs=tinysrgb&w=500" 
                   alt="CEO"
                   className="w-full h-full object-cover"
                 />
