@@ -78,21 +78,21 @@ const Management = () => {
                   className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300 text-white"
                 >
                   <Linkedin className="h-5 w-5" />
-                  <span href="linkedin.com/in/myselfhasan">linkedin</span>
+                  <span>Connect on LinkedIn</span>
                 </button>
                 <button 
                   onClick={handleEmailClick}
                   className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-gray-600 hover:bg-gray-700 rounded-lg transition-colors duration-300 text-white"
                 >
                   <Mail className="h-5 w-5" />
-                  <span>hello@dxel.net</span>
+                  <span>Send Email</span>
                 </button>
                 <button 
                   onClick={handlePhoneClick}
                   className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300 text-white"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>+8801303000250</span>
+                  <span>Call Now</span>
                 </button>
               </div>
             </div>
