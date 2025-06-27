@@ -2,6 +2,22 @@ import React from 'react';
 import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const ContactInfo = () => {
+  const handleFacebookClick = () => {
+    window.open('https://facebook.com/humairaprintingpackaging', '_blank');
+  };
+
+  const handleTwitterClick = () => {
+    window.open('https://twitter.com/humairaprintpkg', '_blank');
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://linkedin.com/company/humaira-printing-packaging', '_blank');
+  };
+
+  const handleInstagramClick = () => {
+    window.open('https://instagram.com/humairaprintingpackaging', '_blank');
+  };
+
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 h-full">
       <div className="mb-8">
@@ -71,16 +87,32 @@ const ContactInfo = () => {
       <div className="border-t border-gray-200 pt-6">
         <h4 className="font-semibold text-gray-900 mb-4">Follow Us</h4>
         <div className="flex space-x-4">
-          <button className="p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">
+          <button 
+            onClick={handleFacebookClick}
+            className="p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
+            title="Follow us on Facebook"
+          >
             <Facebook className="h-5 w-5 text-white" />
           </button>
-          <button className="p-3 bg-blue-400 hover:bg-blue-500 rounded-lg transition-colors">
+          <button 
+            onClick={handleTwitterClick}
+            className="p-3 bg-blue-400 hover:bg-blue-500 rounded-lg transition-colors"
+            title="Follow us on Twitter"
+          >
             <Twitter className="h-5 w-5 text-white" />
           </button>
-          <button className="p-3 bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors">
+          <button 
+            onClick={handleLinkedInClick}
+            className="p-3 bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors"
+            title="Connect on LinkedIn"
+          >
             <Linkedin className="h-5 w-5 text-white" />
           </button>
-          <button className="p-3 bg-pink-600 hover:bg-pink-700 rounded-lg transition-colors">
+          <button 
+            onClick={handleInstagramClick}
+            className="p-3 bg-pink-600 hover:bg-pink-700 rounded-lg transition-colors"
+            title="Follow us on Instagram"
+          >
             <Instagram className="h-5 w-5 text-white" />
           </button>
         </div>

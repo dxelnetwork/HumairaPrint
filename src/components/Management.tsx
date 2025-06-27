@@ -71,28 +71,28 @@ const Management = () => {
                 </div>
               </div>
               
-              {/* Contact buttons */}
-              <div className="flex flex-col justify-center lg:justify-start space-y-3 pt-6">
+              {/* Contact buttons - Square format */}
+              <div className="flex justify-center lg:justify-start space-x-3 pt-6">
                 <button 
                   onClick={handleLinkedInClick}
-                  className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300 text-white"
+                  className="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-300 text-white flex items-center justify-center"
+                  title="Connect on LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
-                  <span>Connect on LinkedIn</span>
                 </button>
                 <button 
                   onClick={handleEmailClick}
-                  className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-gray-600 hover:bg-gray-700 rounded-lg transition-colors duration-300 text-white"
+                  className="w-12 h-12 bg-gray-600 hover:bg-gray-700 rounded-lg transition-colors duration-300 text-white flex items-center justify-center"
+                  title="Send Email"
                 >
                   <Mail className="h-5 w-5" />
-                  <span>Send Email</span>
                 </button>
                 <button 
                   onClick={handlePhoneClick}
-                  className="flex items-center justify-center lg:justify-start space-x-3 p-3 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300 text-white"
+                  className="w-12 h-12 bg-green-600 hover:bg-green-700 rounded-lg transition-colors duration-300 text-white flex items-center justify-center"
+                  title="Call Now"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>Call Now</span>
                 </button>
               </div>
             </div>

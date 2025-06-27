@@ -6,6 +6,22 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
+  const handleFacebookClick = () => {
+    window.open('https://facebook.com/humairaprintingpackaging', '_blank');
+  };
+
+  const handleTwitterClick = () => {
+    window.open('https://twitter.com/humairaprintpkg', '_blank');
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://linkedin.com/company/humaira-printing-packaging', '_blank');
+  };
+
+  const handleInstagramClick = () => {
+    window.open('https://instagram.com/humairaprintingpackaging', '_blank');
+  };
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -26,16 +42,32 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
               Leading pharmaceutical printing and packaging solutions provider, committed to quality, safety, and innovation in healthcare packaging.
             </p>
             <div className="flex space-x-4">
-              <button className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors">
+              <button 
+                onClick={handleFacebookClick}
+                className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors"
+                title="Follow us on Facebook"
+              >
                 <Facebook className="h-4 w-4" />
               </button>
-              <button className="p-3 bg-blue-400 hover:bg-blue-500 rounded-full transition-colors">
+              <button 
+                onClick={handleTwitterClick}
+                className="p-3 bg-blue-400 hover:bg-blue-500 rounded-full transition-colors"
+                title="Follow us on Twitter"
+              >
                 <Twitter className="h-4 w-4" />
               </button>
-              <button className="p-3 bg-blue-700 hover:bg-blue-800 rounded-full transition-colors">
+              <button 
+                onClick={handleLinkedInClick}
+                className="p-3 bg-blue-700 hover:bg-blue-800 rounded-full transition-colors"
+                title="Connect on LinkedIn"
+              >
                 <Linkedin className="h-4 w-4" />
               </button>
-              <button className="p-3 bg-pink-600 hover:bg-pink-700 rounded-full transition-colors">
+              <button 
+                onClick={handleInstagramClick}
+                className="p-3 bg-pink-600 hover:bg-pink-700 rounded-full transition-colors"
+                title="Follow us on Instagram"
+              >
                 <Instagram className="h-4 w-4" />
               </button>
             </div>
