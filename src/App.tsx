@@ -55,9 +55,62 @@ function App() {
               Ready to discuss your pharmaceutical printing needs? Get in touch with our team of experts.
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             <ContactInfo />
             <ContactForm />
+          </div>
+          
+          {/* Awesome Design Element */}
+          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-white text-center relative overflow-hidden">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-10">
+              <div className="absolute top-10 left-10 w-20 h-20 bg-white rounded-full"></div>
+              <div className="absolute top-32 right-20 w-16 h-16 bg-white rounded-full"></div>
+              <div className="absolute bottom-20 left-32 w-12 h-12 bg-white rounded-full"></div>
+              <div className="absolute bottom-10 right-10 w-24 h-24 bg-white rounded-full"></div>
+            </div>
+            
+            <div className="relative z-10">
+              <h3 className="text-3xl md:text-4xl font-bold mb-6">
+                Ready to Start Your Project?
+              </h3>
+              <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
+                Join thousands of satisfied clients who trust us with their pharmaceutical printing needs. 
+                Let's create something amazing together.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <button className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300 flex items-center">
+                  <span>Get Free Quote</span>
+                  <svg className="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </button>
+                <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-600 transition-all duration-300">
+                  Schedule Consultation
+                </button>
+              </div>
+              
+              {/* Trust Indicators */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 pt-8 border-t border-white/20">
+                <div className="text-center">
+                  <div className="text-2xl font-bold">24/7</div>
+                  <div className="text-sm opacity-80">Support</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">ISO</div>
+                  <div className="text-sm opacity-80">Certified</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">FDA</div>
+                  <div className="text-sm opacity-80">Compliant</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">99.9%</div>
+                  <div className="text-sm opacity-80">Quality</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

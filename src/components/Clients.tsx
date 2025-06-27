@@ -2,46 +2,16 @@ import React from 'react';
 
 const Clients = () => {
   const clients = [
-    { 
-      name: 'PharmaCorp', 
-      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'MediTech', 
-      image: 'https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'HealthPlus', 
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'VitalCare', 
-      image: 'https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'BioMed', 
-      image: 'https://images.pexels.com/photos/3683073/pexels-photo-3683073.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'GlobalHealth', 
-      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'MedSupply', 
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'PharmaLab', 
-      image: 'https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'MedCore', 
-      image: 'https://images.pexels.com/photos/4386465/pexels-photo-4386465.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    },
-    { 
-      name: 'LifeScience', 
-      image: 'https://images.pexels.com/photos/3683048/pexels-photo-3683048.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop'
-    }
+    { name: 'Nike', color: 'from-orange-500 to-red-500' },
+    { name: 'Adidas', color: 'from-blue-500 to-cyan-500' },
+    { name: 'Walmart', color: 'from-blue-600 to-blue-700' },
+    { name: 'Amazon', color: 'from-orange-400 to-yellow-500' },
+    { name: 'Apple', color: 'from-gray-600 to-gray-800' },
+    { name: 'Google', color: 'from-blue-500 to-green-500' },
+    { name: 'Microsoft', color: 'from-blue-600 to-cyan-600' },
+    { name: 'Samsung', color: 'from-blue-700 to-indigo-700' },
+    { name: 'Coca Cola', color: 'from-red-600 to-red-700' },
+    { name: 'McDonald\'s', color: 'from-yellow-500 to-red-500' }
   ];
 
   return (
@@ -65,14 +35,12 @@ const Clients = () => {
                 key={index}
                 className="flex-shrink-0 mx-4 group"
               >
-                <div className="w-32 h-32 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
-                  <img
-                    src={client.image}
-                    alt={client.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-3">
-                    <p className="text-white text-sm font-semibold">{client.name}</p>
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                  <div className="text-center">
+                    <div className={`w-16 h-16 bg-gradient-to-br ${client.color} rounded-xl mx-auto mb-2 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                      <span className="text-white font-bold text-xl">{client.name.charAt(0)}</span>
+                    </div>
+                    <p className="text-xs font-semibold text-gray-700">{client.name}</p>
                   </div>
                 </div>
               </div>
@@ -83,14 +51,12 @@ const Clients = () => {
                 key={`duplicate-${index}`}
                 className="flex-shrink-0 mx-4 group"
               >
-                <div className="w-32 h-32 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 relative">
-                  <img
-                    src={client.image}
-                    alt={client.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-3">
-                    <p className="text-white text-sm font-semibold">{client.name}</p>
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                  <div className="text-center">
+                    <div className={`w-16 h-16 bg-gradient-to-br ${client.color} rounded-xl mx-auto mb-2 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                      <span className="text-white font-bold text-xl">{client.name.charAt(0)}</span>
+                    </div>
+                    <p className="text-xs font-semibold text-gray-700">{client.name}</p>
                   </div>
                 </div>
               </div>
