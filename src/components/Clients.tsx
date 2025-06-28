@@ -3,9 +3,9 @@ import React from 'react';
 const Clients = () => {
   const clients = [
     { 
-      name: 'Nike', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png',
-      alt: 'Nike Logo'
+      name: 'Akij Group', 
+      logo: 'https://seekvectorlogo.com/wp-content/uploads/2019/12/akij-group-vector-logo.png',
+      alt: 'Akij Group'
     },
     { 
       name: 'Adidas', 
