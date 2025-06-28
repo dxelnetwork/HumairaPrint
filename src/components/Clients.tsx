@@ -2,16 +2,56 @@ import React from 'react';
 
 const Clients = () => {
   const clients = [
-    { name: 'Nike', color: 'from-orange-500 to-red-500' },
-    { name: 'Adidas', color: 'from-blue-500 to-cyan-500' },
-    { name: 'Walmart', color: 'from-blue-600 to-blue-700' },
-    { name: 'Amazon', color: 'from-orange-400 to-yellow-500' },
-    { name: 'Apple', color: 'from-gray-600 to-gray-800' },
-    { name: 'Google', color: 'from-blue-500 to-green-500' },
-    { name: 'Microsoft', color: 'from-blue-600 to-cyan-600' },
-    { name: 'Samsung', color: 'from-blue-700 to-indigo-700' },
-    { name: 'Coca Cola', color: 'from-red-600 to-red-700' },
-    { name: 'McDonald\'s', color: 'from-yellow-500 to-red-500' }
+    { 
+      name: 'Nike', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png',
+      alt: 'Nike Logo'
+    },
+    { 
+      name: 'Adidas', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Adidas-Logo.png',
+      alt: 'Adidas Logo'
+    },
+    { 
+      name: 'Walmart', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Walmart-Logo.png',
+      alt: 'Walmart Logo'
+    },
+    { 
+      name: 'Amazon', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png',
+      alt: 'Amazon Logo'
+    },
+    { 
+      name: 'Apple', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Apple-Logo.png',
+      alt: 'Apple Logo'
+    },
+    { 
+      name: 'Google', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Google-Logo.png',
+      alt: 'Google Logo'
+    },
+    { 
+      name: 'Microsoft', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Microsoft-Logo.png',
+      alt: 'Microsoft Logo'
+    },
+    { 
+      name: 'Samsung', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Samsung-Logo.png',
+      alt: 'Samsung Logo'
+    },
+    { 
+      name: 'Coca Cola', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Coca-Cola-Logo.png',
+      alt: 'Coca Cola Logo'
+    },
+    { 
+      name: 'McDonald\'s', 
+      logo: 'https://logos-world.net/wp-content/uploads/2020/04/McDonalds-Logo.png',
+      alt: 'McDonald\'s Logo'
+    }
   ];
 
   return (
@@ -35,13 +75,12 @@ const Clients = () => {
                 key={index}
                 className="flex-shrink-0 mx-4 group"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300">
-                  <div className="text-center">
-                    <div className={`w-16 h-16 bg-gradient-to-br ${client.color} rounded-xl mx-auto mb-2 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <span className="text-white font-bold text-xl">{client.name.charAt(0)}</span>
-                    </div>
-                    <p className="text-xs font-semibold text-gray-700">{client.name}</p>
-                  </div>
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4">
+                  <img 
+                    src={client.logo}
+                    alt={client.alt}
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                  />
                 </div>
               </div>
             ))}
@@ -51,13 +90,12 @@ const Clients = () => {
                 key={`duplicate-${index}`}
                 className="flex-shrink-0 mx-4 group"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300">
-                  <div className="text-center">
-                    <div className={`w-16 h-16 bg-gradient-to-br ${client.color} rounded-xl mx-auto mb-2 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                      <span className="text-white font-bold text-xl">{client.name.charAt(0)}</span>
-                    </div>
-                    <p className="text-xs font-semibold text-gray-700">{client.name}</p>
-                  </div>
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4">
+                  <img 
+                    src={client.logo}
+                    alt={client.alt}
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                  />
                 </div>
               </div>
             ))}
