@@ -52,7 +52,7 @@ function App() {
               Contact <span className="text-blue-600">Us</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to discuss your pharmaceutical printing needs? Get in touch with our team of experts.
+              Ready to discuss your printing & packaging needs? Get in touch with our team of experts.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
@@ -75,7 +75,7 @@ function App() {
                 Ready to Start Your Project?
               </h3>
               <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                Join thousands of satisfied clients who trust us with their pharmaceutical printing needs. 
+                Join 6+ satisfied clients who trust us with their pharmaceutical printing needs. 
                 Let's create something amazing together.
               </p>
               
