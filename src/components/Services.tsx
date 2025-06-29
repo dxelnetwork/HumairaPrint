@@ -71,7 +71,7 @@ const Services = () => {
             Our <span className="text-blue-600">Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive printing and packaging solutions designed specifically for the pharmaceutical industry
+            Comprehensive printing & packaging solutions designed specifically for the pharmaceutical industry
           </p>
         </div>
 
