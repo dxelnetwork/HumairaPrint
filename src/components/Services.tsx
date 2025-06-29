@@ -1,64 +1,64 @@
 import React, { useState } from 'react';
-import { FileText, Package2, Palette, Calendar, Pill, PenTool, BookOpen, Bot as Bottle } from 'lucide-react';
+import { Printer, Scissors, Package, Settings, FileText, BookOpen, Layers, Zap } from 'lucide-react';
 
 const Services = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const services = [
     {
-      icon: FileText,
-      title: 'Medical Leaflets',
-      description: 'Precision-printed patient information leaflets with regulatory compliance and security features.',
-      features: ['FDA Compliant', 'Multi-language', 'Security Features'],
+      icon: Printer,
+      title: 'Offset Printing',
+      description: 'High-quality offset printing for large volume pharmaceutical packaging with precise color matching.',
+      features: ['High Volume', 'Color Precision', 'Cost Effective'],
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: Package2,
-      title: 'Medicine Boxes',
-      description: 'Advanced pharmaceutical packaging with tamper-evident features and tracking technology.',
-      features: ['Tamper-Evident', 'Smart Tracking', 'Custom Sizes'],
+      icon: Scissors,
+      title: 'Cutting Services',
+      description: 'Precision cutting services for various materials including paper, cardboard, and specialty substrates.',
+      features: ['Precision Cutting', 'Multiple Materials', 'Custom Sizes'],
       color: 'from-purple-500 to-purple-600'
     },
     {
-      icon: BookOpen,
-      title: 'Medical Brochures',
-      description: 'Professional brochures for healthcare professionals and patient education materials.',
-      features: ['High-Quality Print', 'Custom Design', 'Bulk Orders'],
+      icon: Settings,
+      title: 'Die Cutting',
+      description: 'Advanced die cutting for complex shapes and designs with tight tolerances and clean edges.',
+      features: ['Complex Shapes', 'Tight Tolerances', 'Clean Edges'],
       color: 'from-green-500 to-green-600'
     },
     {
-      icon: Bottle,
-      title: 'Syrup Bottles',
-      description: 'Smart labels with QR codes and temperature-sensitive inks for liquid medications.',
-      features: ['QR Codes', 'Temperature Sensitive', 'Waterproof'],
+      icon: Package,
+      title: 'Auto Gluing',
+      description: 'Automated gluing systems for consistent, strong bonds in pharmaceutical packaging applications.',
+      features: ['Automated Process', 'Strong Bonds', 'Consistent Quality'],
       color: 'from-orange-500 to-orange-600'
     },
     {
-      icon: PenTool,
-      title: 'Medical Stationery',
-      description: 'Professional prescription pads with security watermarks and digital integration.',
-      features: ['Security Watermarks', 'Custom Branding', 'Digital Ready'],
+      icon: Layers,
+      title: 'Auto Plate Making',
+      description: 'Computer-to-plate technology for fast, accurate plate production with superior image quality.',
+      features: ['CTP Technology', 'Fast Production', 'Superior Quality'],
       color: 'from-indigo-500 to-indigo-600'
     },
     {
-      icon: Calendar,
-      title: 'Medical Calendars',
-      description: 'Custom medical calendars with appointment reminders and health tracking features.',
-      features: ['Custom Design', 'Health Tracking', 'Appointment Slots'],
+      icon: BookOpen,
+      title: 'Binding Services',
+      description: 'Professional binding solutions including perfect binding, saddle stitching, and spiral binding.',
+      features: ['Multiple Options', 'Professional Finish', 'Durable Results'],
       color: 'from-pink-500 to-pink-600'
     },
     {
-      icon: Pill,
-      title: 'Blister Packaging',
-      description: 'Advanced blister packs for tablets with dosage tracking and compliance monitoring.',
-      features: ['Child-Resistant', 'Dosage Tracking', 'Compliance Ready'],
+      icon: FileText,
+      title: 'Lamination',
+      description: 'Protective lamination services to enhance durability and appearance of printed materials.',
+      features: ['UV Protection', 'Enhanced Durability', 'Professional Look'],
       color: 'from-cyan-500 to-cyan-600'
     },
     {
-      icon: Palette,
-      title: 'Color Matching',
-      description: 'Precise color matching system ensuring perfect brand consistency across all materials.',
-      features: ['Brand Consistency', 'Pantone Matching', 'Quality Control'],
+      icon: Zap,
+      title: 'Finishing Services',
+      description: 'Complete finishing solutions including embossing, foil stamping, and UV coating applications.',
+      features: ['Embossing', 'Foil Stamping', 'UV Coating'],
       color: 'from-yellow-500 to-yellow-600'
     }
   ];
@@ -71,7 +71,7 @@ const Services = () => {
             Our <span className="text-blue-600">Services</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive printing & packaging solutions designed specifically for the pharmaceutical industry
+            Professional printing and packaging services with state-of-the-art equipment and expert craftsmanship
           </p>
         </div>
 
