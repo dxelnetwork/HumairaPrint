@@ -42,7 +42,7 @@ const Clients = () => {
             Trusted by <span className="text-blue-600">Industry Leaders</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Over 1000+ satisfied clients across the pharmaceutical and healthcare industry worldwide
+            Over 6+ satisfied clients across the pharmaceutical and healthcare industry nationwide
           </p>
         </div>
 
