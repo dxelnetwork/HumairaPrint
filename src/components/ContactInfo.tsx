@@ -36,7 +36,6 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Office Address</h4>
             <p className="text-gray-600">
-              Humaira Printing & Packaging<br />
               144/1 Ext.Road <br/>
               Purana Paltan<br/>
               Dhaka 1000
