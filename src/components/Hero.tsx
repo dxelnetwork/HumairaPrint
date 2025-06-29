@@ -74,7 +74,7 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-4xl mx-auto">
             {[
               { number: '6+', label: 'Clients Served' },
-              { number: '20+', label: 'Years Experience' },
+              { number: '16+', label: 'Years Experience' },
               { number: '99.9%', label: 'Quality Score' },
               { number: '24/7', label: 'Support' }
             ].map((stat, index) => (
