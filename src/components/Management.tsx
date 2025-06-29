@@ -54,7 +54,7 @@ const Management = () => {
             
             <div className="space-y-4">
               <h3 className="text-3xl font-bold text-gray-900">
-                Humayun Kabir
+                Md. Homyun Kabir
               </h3>
               <p className="text-xl text-blue-600 font-semibold">Chief Executive Officer</p>
               <p className="text-gray-600">20+ Years in Printing & Packaging Technology</p>
@@ -128,7 +128,7 @@ const Management = () => {
                   <span className="text-white font-bold text-lg">HK</span>
                 </div>
                 <div>
-                  <div className="font-bold text-gray-900">Humayun Kabir</div>
+                  <div className="font-bold text-gray-900">Md. Homyun Kabir</div>
                   <div className="text-blue-600 text-sm">Chief Executive Officer</div>
                 </div>
               </div>
