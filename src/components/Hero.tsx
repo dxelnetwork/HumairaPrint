@@ -50,7 +50,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Trusted by healthcare professionals worldwide for precision printing, 
+            Trusted by industry professionals nationwide for precision printing, 
             regulatory compliance, and innovative packaging solutions.
           </p>
           
