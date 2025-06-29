@@ -19,7 +19,7 @@ const Management = () => {
   };
 
   const handleLinkedInClick = () => {
-    window.open('https://linkedin.com/in/myselfhasan', '_blank');
+    window.open('#', '_blank');
   };
 
   return (
