@@ -3,55 +3,35 @@ import React from 'react';
 const Clients = () => {
   const clients = [
     { 
+      name: 'ACI', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/aci.png',
+      alt: 'ACI'
+    },
+    { 
       name: 'Akij Group', 
-      logo: 'https://seekvectorlogo.com/wp-content/uploads/2019/12/akij-group-vector-logo.png',
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/akij.png',
       alt: 'Akij Group'
     },
     { 
-      name: 'Adidas', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Adidas-Logo.png',
-      alt: 'Adidas Logo'
+      name: 'Everest', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/everest.png',
+      alt: 'Everest'
     },
     { 
-      name: 'Walmart', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Walmart-Logo.png',
-      alt: 'Walmart Logo'
+      name: 'Incepta', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/incepta.png',
+      alt: 'Incepta'
     },
     { 
-      name: 'Amazon', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png',
-      alt: 'Amazon Logo'
+      name: 'Opsonin', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/opsonin.png',
+      alt: 'Opsonin'
     },
     { 
-      name: 'Apple', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Apple-Logo.png',
-      alt: 'Apple Logo'
+      name: 'Renata', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/renata.png',
+      alt: 'Renata'
     },
-    { 
-      name: 'Google', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Google-Logo.png',
-      alt: 'Google Logo'
-    },
-    { 
-      name: 'Microsoft', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Microsoft-Logo.png',
-      alt: 'Microsoft Logo'
-    },
-    { 
-      name: 'Samsung', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Samsung-Logo.png',
-      alt: 'Samsung Logo'
-    },
-    { 
-      name: 'Coca Cola', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/Coca-Cola-Logo.png',
-      alt: 'Coca Cola Logo'
-    },
-    { 
-      name: 'McDonald\'s', 
-      logo: 'https://logos-world.net/wp-content/uploads/2020/04/McDonalds-Logo.png',
-      alt: 'McDonald\'s Logo'
-    }
   ];
 
   return (
