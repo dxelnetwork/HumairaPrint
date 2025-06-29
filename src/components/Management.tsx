@@ -57,7 +57,7 @@ const Management = () => {
                 Md. Homyun Kabir
               </h3>
               <p className="text-xl text-blue-600 font-semibold">Chief Executive Officer</p>
-              <p className="text-gray-600">20+ Years in Printing & Packaging Technology</p>
+              <p className="text-gray-600">16+ Years in Printing & Packaging Technology</p>
               
               {/* Achievement badges */}
               <div className="flex justify-center lg:justify-start space-x-4 pt-4">
