@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: 1,
       title: 'Inner Carton',
       category: 'Packaging',
-      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Inner%20Carton.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'High-quality inner cartons for pharmaceutical and consumer products'
     },
     {
