@@ -30,7 +30,7 @@ const Management = () => {
             Meet Our <span className="text-blue-600">Leadership</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Experienced professionals dedicated to delivering excellence in pharmaceutical printing
+            Experienced professionals dedicated to delivering excellence in printing & packaging.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ const Management = () => {
                 Humayun Kabir
               </h3>
               <p className="text-xl text-blue-600 font-semibold">Chief Executive Officer</p>
-              <p className="text-gray-600">25+ Years in Printing & Packaging Technology</p>
+              <p className="text-gray-600">20+ Years in Printing & Packaging Technology</p>
               
               {/* Achievement badges */}
               <div className="flex justify-center lg:justify-start space-x-4 pt-4">
@@ -117,7 +117,7 @@ const Management = () => {
               </p>
               
               <p>
-                "We're proud to serve healthcare professionals worldwide and contribute to better patient outcomes through our innovative packaging solutions."
+                "We're proud to serve industry professionals nationwide and contribute to better patient outcomes through our innovative packaging solutions."
               </p>
             </div>
             
