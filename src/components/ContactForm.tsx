@@ -90,7 +90,7 @@ const ContactForm = () => {
 
     try {
       // Send email using EmailJS or similar service
-      const response = await fetch('https://formspree.io/f/xpwzgqpb', {
+      const response = await fetch('https://formspree.io/f/meokvbyz', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
