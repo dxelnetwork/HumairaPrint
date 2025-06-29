@@ -46,7 +46,7 @@ const Hero = () => {
             <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
               Pharmaceutical
             </span>
-            <span className="block">Printing Solutions</span>
+            <span className="block">Printing & Packaging Solutions</span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
