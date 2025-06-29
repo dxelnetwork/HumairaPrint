@@ -11,7 +11,7 @@ const Management = () => {
   }, []);
 
   const handlePhoneClick = () => {
-    window.open('tel:+8801303000250', '_self');
+    window.open('tel:+8801793421577', '_self');
   };
 
   const handleEmailClick = () => {
