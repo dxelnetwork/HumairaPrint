@@ -7,66 +7,129 @@ const Portfolio = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: 'Pharmaceutical Leaflets',
-      category: 'Medical Leaflets',
-      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'FDA-compliant patient information leaflets with multi-language support'
+      title: 'Inner Carton',
+      category: 'Packaging',
+      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'High-quality inner cartons for pharmaceutical and consumer products'
     },
     {
       id: 2,
-      title: 'Medicine Packaging',
-      category: 'Medicine Boxes',
-      image: 'https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Tamper-evident pharmaceutical packaging with smart tracking'
+      title: 'Books',
+      category: 'Publishing',
+      image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Professional book printing with perfect binding and quality paper'
     },
     {
       id: 3,
-      title: 'Medical Brochures',
-      category: 'Brochures',
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Professional healthcare brochures for patient education'
+      title: 'Pad Wire/Spiral',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Wire-bound and spiral notebooks with custom covers and layouts'
     },
     {
       id: 4,
-      title: 'Syrup Bottle Labels',
-      category: 'Labels',
-      image: 'https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Waterproof labels with QR codes and temperature indicators'
+      title: 'Literature',
+      category: 'Publishing',
+      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Educational and promotional literature with professional design'
     },
     {
       id: 5,
-      title: 'Blister Packaging',
-      category: 'Packaging',
-      image: 'https://images.pexels.com/photos/3683073/pexels-photo-3683073.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Child-resistant blister packs with dosage tracking'
+      title: 'Show Card',
+      category: 'Marketing',
+      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Eye-catching show cards for retail displays and promotions'
     },
     {
       id: 6,
-      title: 'Medical Calendars',
-      category: 'Stationery',
-      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Custom medical calendars with appointment scheduling'
+      title: 'Gift Box',
+      category: 'Packaging',
+      image: 'https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Elegant gift boxes with custom printing and finishing'
     },
     {
       id: 7,
-      title: 'Prescription Pads',
-      category: 'Stationery',
+      title: 'Leaflet',
+      category: 'Marketing',
       image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Security watermarked prescription pads with digital integration'
+      description: 'Informative leaflets with vibrant colors and clear messaging'
     },
     {
       id: 8,
-      title: 'Pharmaceutical Boxes',
-      category: 'Medicine Boxes',
+      title: 'Dangler',
+      category: 'Marketing',
       image: 'https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Premium pharmaceutical packaging with brand consistency'
+      description: 'Promotional danglers for point-of-sale marketing'
     },
     {
       id: 9,
-      title: 'Medical Information Cards',
-      category: 'Medical Leaflets',
+      title: 'Brochure',
+      category: 'Marketing',
       image: 'https://images.pexels.com/photos/4386465/pexels-photo-4386465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Compact medical information cards for healthcare professionals'
+      description: 'Professional brochures with fold options and premium finishes'
+    },
+    {
+      id: 10,
+      title: 'Diary',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Custom diaries with personalized covers and layouts'
+    },
+    {
+      id: 11,
+      title: 'Calendar',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Wall and desk calendars with custom designs and branding'
+    },
+    {
+      id: 12,
+      title: 'Letterhead Pad',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Professional letterhead pads with company branding'
+    },
+    {
+      id: 13,
+      title: 'Envelope',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/6373478/pexels-photo-6373478.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Custom envelopes in various sizes with professional printing'
+    },
+    {
+      id: 14,
+      title: 'File Folder',
+      category: 'Stationery',
+      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Durable file folders with custom tabs and labeling'
+    },
+    {
+      id: 15,
+      title: 'Annual Report',
+      category: 'Publishing',
+      image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Professional annual reports with premium binding and paper'
+    },
+    {
+      id: 16,
+      title: 'Promotional Materials',
+      category: 'Marketing',
+      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'All kinds of promotional materials for marketing campaigns'
+    },
+    {
+      id: 17,
+      title: 'Printing & Manufacturing',
+      category: 'Manufacturing',
+      image: 'https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Various printing and manufacturing items for diverse industries'
+    },
+    {
+      id: 18,
+      title: 'Shopping Bag',
+      category: 'Packaging',
+      image: 'https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Custom shopping bags in paper, plastic, and eco-friendly materials'
     }
   ];
 
@@ -105,7 +168,7 @@ const Portfolio = () => {
             Our <span className="text-blue-600">Portfolio</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our comprehensive collection of pharmaceutical printing and packaging solutions
+            Explore our comprehensive collection of printing and packaging solutions for various industries
           </p>
         </div>
 

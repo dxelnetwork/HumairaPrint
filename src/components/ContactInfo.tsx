@@ -23,7 +23,7 @@ const ContactInfo = () => {
       <div className="mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">Contact Information</h3>
         <p className="text-gray-600">
-          Get in touch with our team for all your pharmaceutical printing needs.
+          Get in touch with our team for all your printing and packaging needs.
         </p>
       </div>
 
@@ -36,9 +36,8 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Office Address</h4>
             <p className="text-gray-600">
-              123 Industrial Park<br />
-              Pharmaceutical District<br />
-              New York, NY 10001
+              Humaira Printing & Packaging<br />
+              Dhaka, Bangladesh
             </p>
           </div>
         </div>
@@ -50,8 +49,8 @@ const ContactInfo = () => {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Phone Number</h4>
-            <p className="text-gray-600">+1 (555) 123-4567</p>
-            <p className="text-gray-500 text-sm">Available 24/7 for urgent inquiries</p>
+            <p className="text-gray-600">+880 1793-421577</p>
+            <p className="text-gray-500 text-sm">Available during business hours</p>
           </div>
         </div>
 
@@ -62,7 +61,7 @@ const ContactInfo = () => {
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
-            <p className="text-gray-600">info@humairaprintingpackaging.com</p>
+            <p className="text-gray-600">humairaprinting2020@gmail.com</p>
             <p className="text-gray-500 text-sm">We respond within 24 hours</p>
           </div>
         </div>
@@ -75,9 +74,8 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Business Hours</h4>
             <div className="text-gray-600 space-y-1">
-              <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-              <p>Saturday: 9:00 AM - 4:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Saturday - Thursday: 9:00 AM - 6:00 PM</p>
+              <p>Friday: Closed</p>
             </div>
           </div>
         </div>
@@ -123,7 +121,7 @@ const ContactInfo = () => {
         <h4 className="font-semibold text-gray-900 mb-4">Find Us</h4>
         <div className="w-full h-64 bg-gray-200 rounded-lg overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1635959872076!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38703692693!2d90.25487308203125!3d23.780753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2s!4v1635959872076!5m2!1sen!2s"
             width="100%"
             height="100%"
             style={{ border: 0 }}

@@ -89,22 +89,40 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      console.log('Form submitted:', formData);
-      setIsSubmitted(true);
-      
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        message: ''
+      // Send email using EmailJS or similar service
+      const response = await fetch('https://formspree.io/f/xpwzgqpb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          company: formData.company,
+          message: formData.message,
+          _replyto: formData.email,
+          _subject: `New Contact Form Submission from ${formData.name}`,
+          _to: 'dxel.net@gmail.com'
+        }),
       });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Failed to send message');
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
+      alert('Failed to send message. Please try again or contact us directly.');
     } finally {
       setIsSubmitting(false);
     }
@@ -135,7 +153,7 @@ const ContactForm = () => {
       <div className="mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">Get In Touch</h3>
         <p className="text-gray-600">
-          Ready to discuss your pharmaceutical printing needs? Send us a message and we'll respond promptly.
+          Ready to discuss your printing and packaging needs? Send us a message and we'll respond promptly.
         </p>
       </div>
 

@@ -4,6 +4,13 @@ import { Printer, Scissors, Package, Settings, FileText, BookOpen, Layers, Zap }
 const Services = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
+  const scrollToContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const services = [
     {
       icon: Printer,
@@ -118,7 +125,10 @@ const Services = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-300">
+          <button 
+            onClick={scrollToContact}
+            className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-300"
+          >
             Request Quote
           </button>
         </div>
