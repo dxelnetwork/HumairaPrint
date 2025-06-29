@@ -44,9 +44,9 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-8 leading-tight">
             Professional
             <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              Pharmaceutical
+              Printing & Packaging
             </span>
-            <span className="block">Printing & Packaging Solutions</span>
+            <span className="block">Solutions</span>
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
