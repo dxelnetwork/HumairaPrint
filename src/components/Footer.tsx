@@ -106,14 +106,14 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-blue-400 mr-3 mt-1 flex-shrink-0" />
                 <div className="text-gray-300">
-                  <p>123 Industrial Park</p>
-                  <p>Pharmaceutical District</p>
-                  <p>New York, NY 10001</p>
+                  <p>144/1 Ext.Road</p>
+                  <p>Purana Paltan</p>
+                  <p>Dhaka 1000</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+880 1793 421 577</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
