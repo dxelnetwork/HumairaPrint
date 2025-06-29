@@ -88,11 +88,10 @@ const Commitment = () => {
         {/* Promise Section */}
         <div className="bg-gray-800 rounded-2xl p-12 text-center">
           <h3 className="text-3xl font-bold mb-6 text-blue-400">
-            Our Promise to Healthcare
+            Our Promise to Clients
           </h3>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
-            We're committed to supporting healthcare professionals with reliable, compliant, and innovative packaging solutions 
-            that contribute to better patient outcomes and safer medication delivery worldwide.
+            We're committed to supporting clients with reliable, compliant, and innovative packaging solutions that contribute to improved outcomes and safer product delivery nationwide.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
