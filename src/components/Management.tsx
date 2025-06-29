@@ -15,7 +15,7 @@ const Management = () => {
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:hello@dxel.net', '_self');
+    window.open('mailto:humairaprinting2020@gmail.com', '_self');
   };
 
   const handleLinkedInClick = () => {
