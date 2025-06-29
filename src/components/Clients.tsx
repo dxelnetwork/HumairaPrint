@@ -85,9 +85,9 @@ const Clients = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: '1000+', label: 'Happy Clients', icon: '👥' },
+            { number: '6+', label: 'Happy Clients', icon: '👥' },
             { number: '5M+', label: 'Products Printed', icon: '📦' },
-            { number: '25+', label: 'Years Experience', icon: '🏆' },
+            { number: '16+', label: 'Years Experience', icon: '🏆' },
             { number: '99.9%', label: 'Quality Score', icon: '⭐' }
           ].map((stat, index) => (
             <div key={index} className="text-center p-6 bg-gray-50 rounded-xl">
