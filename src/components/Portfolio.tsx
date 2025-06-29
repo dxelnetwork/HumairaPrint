@@ -37,98 +37,98 @@ const Portfolio = () => {
       id: 5,
       title: 'Show Card',
       category: 'Marketing',
-      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Show%20Card%201.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Eye-catching show cards for retail displays and promotions'
     },
     {
       id: 6,
       title: 'Gift Box',
       category: 'Packaging',
-      image: 'https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Gift%20Box%201.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Elegant gift boxes with custom printing and finishing'
     },
     {
       id: 7,
       title: 'Leaflet',
       category: 'Marketing',
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Leaflet.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Informative leaflets with vibrant colors and clear messaging'
     },
     {
       id: 8,
       title: 'Dangler',
       category: 'Marketing',
-      image: 'https://images.pexels.com/photos/3683051/pexels-photo-3683051.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Dangler.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Promotional danglers for point-of-sale marketing'
     },
     {
       id: 9,
       title: 'Brochure',
       category: 'Marketing',
-      image: 'https://images.pexels.com/photos/4386465/pexels-photo-4386465.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Brochure.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Professional brochures with fold options and premium finishes'
     },
     {
       id: 10,
       title: 'Diary',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Diary.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Custom diaries with personalized covers and layouts'
     },
     {
       id: 11,
       title: 'Calendar',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Calendar.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Wall and desk calendars with custom designs and branding'
     },
     {
       id: 12,
       title: 'Letterhead Pad',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Letterhead%20Pad.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Professional letterhead pads with company branding'
     },
     {
       id: 13,
       title: 'Envelope',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/6373478/pexels-photo-6373478.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Envelope.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Custom envelopes in various sizes with professional printing'
     },
     {
       id: 14,
       title: 'File Folder',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/File%20Folder.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Durable file folders with custom tabs and labeling'
     },
     {
       id: 15,
       title: 'Annual Report',
       category: 'Publishing',
-      image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Annual%20Report.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Professional annual reports with premium binding and paper'
     },
     {
       id: 16,
       title: 'Promotional Materials',
       category: 'Marketing',
-      image: 'https://images.pexels.com/photos/3683074/pexels-photo-3683074.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/All%20Kinds%20Promotional%20Materials.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'All kinds of promotional materials for marketing campaigns'
     },
     {
       id: 17,
       title: 'Printing & Manufacturing',
       category: 'Manufacturing',
-      image: 'https://images.pexels.com/photos/3786126/pexels-photo-3786126.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Various%20Printing%20%26%20Manufacturing%20Items.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Various printing and manufacturing items for diverse industries'
     },
     {
       id: 18,
       title: 'Shopping Bag',
       category: 'Packaging',
-      image: 'https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Any%20kind%20of%20shopping%20bag.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Custom shopping bags in paper, plastic, and eco-friendly materials'
     }
   ];
