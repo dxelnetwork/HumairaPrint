@@ -16,21 +16,21 @@ const Portfolio = () => {
       id: 2,
       title: 'Books',
       category: 'Publishing',
-      image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Books.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Professional book printing with perfect binding and quality paper'
     },
     {
       id: 3,
       title: 'Pad Wire/Spiral',
       category: 'Stationery',
-      image: 'https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Pad%20WireSpiral.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Wire-bound and spiral notebooks with custom covers and layouts'
     },
     {
       id: 4,
       title: 'Literature',
       category: 'Publishing',
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Literature.jpg?auto=compress&cs=tinysrgb&w=800',
       description: 'Educational and promotional literature with professional design'
     },
     {
