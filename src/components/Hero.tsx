@@ -26,6 +26,21 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden flex items-center">
+      {/* Floating Dots Background */}
+      <div className="absolute inset-0 pointer-events-none">
+        {[...Array(8)].map((_, i) => (
+          <div
+            key={i}
+            className="floating-dot absolute w-2 h-2 bg-white/20 rounded-full"
+            style={{
+              left: `${Math.random() * 100}%`,
+              '--random-x': `${(Math.random() - 0.5) * 200}px`,
+              animationDelay: `${Math.random() * 15}s`
+            } as React.CSSProperties}
+          />
+        ))}
+      </div>
+
       {/* Subtle 3D Background Elements */}
       <div className="absolute inset-0">
         <div 

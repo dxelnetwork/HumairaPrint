@@ -47,19 +47,19 @@ const Clients = () => {
         </div>
 
         {/* Medium Speed Carousel */}
-        <div className="relative mb-16 overflow-hidden">
+        <div className="relative mb-16 overflow-hidden group">
           <div className="flex animate-scroll-medium">
             {/* First set */}
             {clients.map((client, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 mx-4 group"
+                className="flex-shrink-0 mx-4 client-item"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4">
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4 client-logo">
                   <img 
                     src={client.logo}
                     alt={client.alt}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 client-item:hover:scale-110"
                   />
                 </div>
               </div>
@@ -68,13 +68,13 @@ const Clients = () => {
             {clients.map((client, index) => (
               <div
                 key={`duplicate-${index}`}
-                className="flex-shrink-0 mx-4 group"
+                className="flex-shrink-0 mx-4 client-item"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4">
+                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4 client-logo">
                   <img 
                     src={client.logo}
                     alt={client.alt}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 group-hover:scale-110"
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 client-item:hover:scale-110"
                   />
                 </div>
               </div>

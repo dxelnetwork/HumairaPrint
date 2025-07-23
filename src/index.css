@@ -24,6 +24,42 @@
   .animate-scroll-medium {
     animation: scrollMedium 30s linear infinite;
   }
+
+  .animate-scroll-medium:hover {
+    animation-play-state: paused;
+  }
+
+  .floating-dot {
+    animation: floatUp 15s linear infinite;
+  }
+
+  .floating-dot:nth-child(2) {
+    animation-delay: -2s;
+  }
+
+  .floating-dot:nth-child(3) {
+    animation-delay: -4s;
+  }
+
+  .floating-dot:nth-child(4) {
+    animation-delay: -6s;
+  }
+
+  .floating-dot:nth-child(5) {
+    animation-delay: -8s;
+  }
+
+  .floating-dot:nth-child(6) {
+    animation-delay: -10s;
+  }
+
+  .floating-dot:nth-child(7) {
+    animation-delay: -12s;
+  }
+
+  .floating-dot:nth-child(8) {
+    animation-delay: -14s;
+  }
   
   @keyframes scrollMedium {
     0% {
@@ -31,6 +67,20 @@
     }
     100% {
       transform: translateX(-50%);
+    }
+  }
+
+  @keyframes floatUp {
+    0% {
+      transform: translateY(100vh) translateX(0);
+      opacity: 0;
+    }
+    10%, 90% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(-100px) translateX(var(--random-x));
+      opacity: 0;
     }
   }
 }
