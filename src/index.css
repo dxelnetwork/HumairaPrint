@@ -29,6 +29,13 @@
     animation-play-state: paused;
   }
 
+  /* Ensure proper mobile display for client logos */
+  @media (max-width: 640px) {
+    .animate-scroll-medium {
+      animation-duration: 20s;
+    }
+  }
+
   .floating-dot {
     animation: floatUp 15s linear infinite;
   }

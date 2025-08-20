@@ -53,14 +53,14 @@ const Clients = () => {
 
         {/* Medium Speed Carousel */}
         <div className="relative mb-16 overflow-hidden group">
-          <div className="flex animate-scroll-medium">
+          <div className="flex animate-scroll-medium" style={{ width: 'calc(200% + 2rem)' }}>
             {/* First set */}
             {clients.map((client, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 mx-4 client-item"
+                className="flex-shrink-0 mx-2 sm:mx-4 client-item"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4 client-logo">
+                <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-3 sm:p-4 client-logo">
                   <img 
                     src={client.logo}
                     alt={client.alt}
@@ -73,9 +73,9 @@ const Clients = () => {
             {clients.map((client, index) => (
               <div
                 key={`duplicate-${index}`}
-                className="flex-shrink-0 mx-4 client-item"
+                className="flex-shrink-0 mx-2 sm:mx-4 client-item"
               >
-                <div className="w-32 h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-4 client-logo">
+                <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gray-50 rounded-xl flex items-center justify-center hover:bg-white hover:shadow-lg transition-all duration-300 p-3 sm:p-4 client-logo">
                   <img 
                     src={client.logo}
                     alt={client.alt}
@@ -88,19 +88,19 @@ const Clients = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
           {[
             { number: '6+', label: 'Happy Clients', icon: '👥' },
             { number: '5M+', label: 'Products Printed', icon: '📦' },
             { number: '16+', label: 'Years Experience', icon: '🏆' },
             { number: '99.9%', label: 'Quality Score', icon: '⭐' }
           ].map((stat, index) => (
-            <div key={index} className="text-center p-6 bg-gray-50 rounded-xl">
-              <div className="text-3xl mb-3">{stat.icon}</div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">
+            <div key={index} className="text-center p-4 sm:p-6 bg-gray-50 rounded-xl">
+              <div className="text-2xl sm:text-3xl mb-2 sm:mb-3">{stat.icon}</div>
+              <div className="text-2xl sm:text-3xl font-bold text-blue-600 mb-1 sm:mb-2">
                 {stat.number}
               </div>
-              <div className="text-gray-600 font-medium">
+              <div className="text-sm sm:text-base text-gray-600 font-medium">
                 {stat.label}
               </div>
             </div>
