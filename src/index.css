@@ -25,15 +25,13 @@
     animation: scrollMedium 15s linear infinite;
   }
 
-  .animate-scroll-medium:hover {
-    animation-play-state: paused;
+  .animate-infinite-scroll {
+    animation: infiniteScroll 20s linear infinite;
+    width: max-content;
   }
 
-  /* Ensure proper mobile display for client logos */
-  @media (max-width: 640px) {
-    .animate-scroll-medium {
-      animation-duration: 20s;
-    }
+  .animate-infinite-scroll:hover {
+    animation-play-state: paused;
   }
 
   .floating-dot {
@@ -74,6 +72,15 @@
     }
     100% {
       transform: translateX(-50%);
+    }
+  }
+
+  @keyframes infiniteScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% / 3));
     }
   }
 
