@@ -22,7 +22,7 @@
   }
 
   .animate-scroll-medium {
-    animation: scrollMedium 30s linear infinite;
+    animation: scrollMedium 15s linear infinite;
   }
 
   .animate-scroll-medium:hover {
