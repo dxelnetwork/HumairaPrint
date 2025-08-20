@@ -79,7 +79,7 @@ const Clients = () => {
                   <img 
                     src={client.logo}
                     alt={client.alt}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300 client-item:hover:scale-110"
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-100 client-item:hover:scale-110"
                   />
                 </div>
               </div>
