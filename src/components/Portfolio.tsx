@@ -91,10 +91,10 @@ const Portfolio = () => {
     },
     {
       id: 13,
-      title: 'Envelope',
+      title: 'Packets and Blister',
       category: 'Stationery',
       image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Envelope.jpg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Custom envelopes in various sizes with professional printing'
+      description: 'High-quality medicine packets and blister packs ensuring safe and hygienic pharmaceutical packaging.'
     },
     {
       id: 14,
