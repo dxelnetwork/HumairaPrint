@@ -126,10 +126,10 @@ const Portfolio = () => {
     },
     {
       id: 18,
-      title: 'Shopping Bag',
+      title: 'Foils & Flexipack',
       category: 'Packaging',
       image: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Any%20kind%20of%20shopping%20bag.jpg?auto=compress&cs=tinysrgb&w=800',
-      description: 'Custom shopping bags in paper, plastic, and eco-friendly materials'
+      description: 'Premium foils and flexible packaging solutions for safe, durable, and innovative product wrapping.'
     }
   ];
 
