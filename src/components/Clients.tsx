@@ -32,10 +32,15 @@ const Clients = () => {
       logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/renata.png',
       alt: 'Renata'
     },
-        { 
+    { 
       name: 'Renata', 
       logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/sqrpharma.png',
       alt: 'Renata'
+    },
+    { 
+      name: 'Navana', 
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/Navana.png',
+      alt: 'Navana'
     },
   ];
 
