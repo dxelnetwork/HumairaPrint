@@ -63,6 +63,7 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
             <p className="text-gray-600">humairaprinting2020@gmail.com</p>
+            <p className="text-gray-600">info@humairaprintingpackaging.com</p>
             <p className="text-gray-500 text-sm">We respond within 24 hours</p>
           </div>
         </div>
