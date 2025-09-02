@@ -118,6 +118,7 @@ const Footer: React.FC<FooterProps> = ({ onPolicyClick }) => {
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 flex-shrink-0" />
                 <span className="text-gray-300">info@humairaprintingpackaging.com</span>
+                <span className="text-gray-300">humairaprinting2020@gmail.com</span>
               </div>
             </div>
           </div>
