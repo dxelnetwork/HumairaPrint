@@ -39,7 +39,7 @@ const Clients = () => {
     },
     { 
       name: 'Navana', 
-      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/Navana.png',
+      logo: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/client%20logo/NavanaPharma.png',
       alt: 'Navana'
     },
   ];
