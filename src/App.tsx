@@ -11,6 +11,7 @@ import ContactInfo from './components/ContactInfo';
 import Footer from './components/Footer';
 import PolicyModal from './components/PolicyModal';
 import CookieBanner from './components/CookieBanner';
+import PhotoSlideshow from './components/PhotoSlideshow';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,6 +45,7 @@ function App() {
       <div id="clients">
         <Clients />
       </div>
+      <PhotoSlideshow />
       <Commitment />
       <div id="contact" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
