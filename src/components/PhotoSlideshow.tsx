@@ -5,6 +5,21 @@ const PhotoSlideshow = () => {
 
   const photos = [
     {
+      url: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/1%20(2).jpg',
+      title: 'Inner Carton',
+      category: 'Packaging'
+    },
+    {
+      url: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Foil.jpg',
+      title: 'Foils',
+      category: 'Packaging'
+    },
+    {
+      url: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/All%20Kinds%20Promotional%20Materials.jpg',
+      title: 'Promotional Materials',
+      category: 'Promotional'
+    },
+    {
       url: 'https://raw.githubusercontent.com/dxelnetwork/HumairaPrint/refs/heads/main/images/portfolio/jpg/Inner%20Carton.jpg',
       title: 'Inner Carton',
       category: 'Packaging'
